@@ -34,4 +34,4 @@ def solve():
             break
     print(moves)
     
-solve()
+solve() 

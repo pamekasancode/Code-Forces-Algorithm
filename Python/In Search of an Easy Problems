@@ -1,0 +1,11 @@
+def solve():
+	total = int(input())
+	opinions = list(map(int, input().split()))
+
+	for x in opinions:
+		if x == 1:
+			print("HARD")
+			return
+	print("EASY")  	
+
+solve()
